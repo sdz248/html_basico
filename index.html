@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <!-- Metadatos -->
+	<meta charset="utf-8"> <!-- Codificacion universal -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--  <meta name="keywords" content="papa,cebolla,azucar">  Indica palabras claves al buscar la pagina -->
+      <!--   <meta name="description" content="Es una pagina que vende alimentos"> -->
+      <!-- <meta name="author" content="sdz"> -->
+      <!-- <meta name="copyright" content="sdz S.A."> -->
+
 	<title>HTML BASICO</title>
 </head>
 <body>
-
-	<!-- Etiquetas de texto -->
-  <h1>Con fe siempre hacia adelante</h1>
-  <h2>Prueba subtitulo</h2>
+    <!-- HEADER Y NAV-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="temario.html">Temario</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <section>
+            <!-- Etiquetas de texto -->
+           <h1>Con fe siempre hacia adelante</h1>
+           <h2>Prueba subtitulo</h2>
   <!--Probando atributo target para abrir en una nueva pestaña el enlace -->
-  <p>Primer parrafo: Hoy va a ser un gran dia, ten fe.Si quieres haz <a href="https://github.com/sdz248/html_basico" target="_BLANK">Click</a> para mirar mi progreso.</p>
+  <p>Primer parrafo: Hoy va a ser un gran dia, ten fe.Si quieres haz <a href="https://github.com/sdz248/html_basico" target="_BLANK">Click</a> para mirar mi progreso.</p> 
+        </section>
+              <section>
+        <!--Listas -->
+      <h3>Lista No Ordenada</h3>
+      <ul>
+        <li>Auto</li>
+        <li>Moto</li>
+        <li>Bici</li>
+      </ul>
+      <h4>Lista Ordenada</h4>
+      <ol>
+        <li>Auto</li>
+        <li>Moto</li>
+        <li>Bici</li>
+      </ol>
 
-  <!--Listas -->
-  <h3>Lista No Ordenada</h3>
-  <ul>
-  	<li>Auto</li>
-  	<li>Moto</li>
-  	<li>Bici</li>
-  </ul>
-  
-  <h4>Lista Ordenada</h4>
-  <ol>
-  	<li>Auto</li>
-  	<li>Moto</li>
-  	<li>Bici</li>
-  </ol>
+             </section>
+        </article>
 
   <!-- Multimedia: imagene, audio, video -->
   <!-- Imagenen -->
@@ -69,17 +89,18 @@
 
     <h5>Hora</h5>
     <input type="time">
-
+    
     <h5>Area de texto</h5>
     <textarea></textarea>
 
     <h5>Area de texto solo lectura</h5>
     <textarea readonly>Buenas noches</textarea>
-
     <h5>Boton para enviar formulario</h5>
     <input type="submit">
 
   </form>
-
+<aside>
+    <p>Este es aside, para mas info</p>
+</aside>
 </body>
 </html>
